@@ -1,0 +1,25 @@
+{
+  "name": "JSTestLib",
+  "version": "0.0.0",
+  "description": "JSTestLib",
+  "main": "find.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuyyuri/JSTestLib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vuyyuri/JSTestLib/issues"
+  },
+  "homepage": "https://github.com/vuyyuri/JSTestLib",
+  "devDependencies": {
+    "qunitjs": "^1.12.0",
+    "karma-qunit": "^0.1.1",
+    "karma-chrome-launcher": "^0.1.3",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
