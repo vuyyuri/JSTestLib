@@ -6,14 +6,6 @@ var isArray = function(arr){
 var partition = function(arr,func){
 	var trueArr=[];
 	var falseArr=[];
-	if (arr===null) return;
-	
-	if( !isArray(arr) && func(arr) ) {
-		return [[arr],[]];
-	}
-	else{
-		if(!isArray(arr)) return [[],[arr]];
-		
 		for(var i=0,len = arr.length;i<len;i++){
 		
 			if(func(arr[i])){
@@ -22,7 +14,7 @@ var partition = function(arr,func){
 				falseArr.push(arr[i]);
 			}
 		}
-	}
+	
 	return [trueArr, falseArr];
 }
 
