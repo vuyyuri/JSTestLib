@@ -1,6 +1,5 @@
 var isFunction = function(obj){
-	 if(typeof obj === 'function') return true;
-	 return false;
+	 return toString.call(obj)==='[object function]';
 }
 
 var isArgument = function(obj){
